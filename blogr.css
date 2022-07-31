@@ -1,0 +1,124 @@
+* {
+  pad: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  overflow: hidden;
+}
+.background1 {
+  position: absolute;
+  background: linear-gradient(
+    to right,
+    hsl(13, 100%, 72%),
+    hsl(353, 100%, 62%)
+  );
+  width: 100%;
+  height: 60vh;
+  border-radius: 0 0 0 100px;
+  overflow: hidden;
+}
+.bg {
+  position: absolute;
+  display: flex;
+  top: -260%;
+  left: -20%;
+}
+.images {
+  height: 150%;
+  width: 150%;
+}
+.logo {
+  position: absolute;
+  display: flex;
+  left: 10%;
+  top: 8%;
+}
+.links1 {
+  display: flex;
+  position: absolute;
+  left: 20%;
+  gap: 25px;
+  top: 10%;
+}
+a{
+    color: rgb(206, 202, 202);
+}
+.icon{
+    width: 15px;
+    height: 10px;
+}
+.links2 {
+  display: flex;
+  position: absolute;
+  right: 10%;
+  gap: 35px;
+  top: 9%;
+}
+.login{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.signup{
+    background-color: white;
+    color: hsl(353, 100%, 62%);
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    height: 40px;
+    width: 125px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.header{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 35%;
+    left: 28%;
+}
+
+.links3{
+    display: flex;
+    position: absolute;
+    top: 68%;
+    left: 40.5%;
+    gap: 25px;
+}
+.header h1{
+    color: white;
+    font-size: 50px;
+}
+.header p{
+    color: rgb(238, 235, 235);
+    font-size: 18px;
+    margin-top: 25px;
+}
+.start{
+    background-color: white;
+    color: hsl(353, 100%, 62%);
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    height: 40px;
+    width: 125px;
+    font-weight: bold; 
+    cursor: pointer;
+}
+.learn{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px;
+    height: 40px;
+    width: 125px;
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
